@@ -5,8 +5,8 @@ describe('Unit its', function () {
   describe('Basic Assertions', function () {
     // #1
     it('#isNull, #isNotNull', function () {
-      assert.isNull(null, 'This is an optional error description - e.g. null is null');
-      assert.isNotNull(1, '1 is not null');
+      assert.isNull(null);
+      assert.isNotNull(1);
     });
     // #2
     it('#isDefined, #isUndefined', function () {
